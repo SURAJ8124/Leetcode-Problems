@@ -23,7 +23,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
  */
 public class TwoSumArray {
-   public static class Solution {
+  class Solution {
         public int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> arrayMap = new HashMap<>();
             int[] array = new int[2];
